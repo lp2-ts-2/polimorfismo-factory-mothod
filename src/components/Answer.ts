@@ -3,6 +3,6 @@ export enum TypeAnswer {
     CHOICE
 }
 
-export default interface Answer {
+export interface Answer {
     type(): TypeAnswer;
 }
